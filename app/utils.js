@@ -1,5 +1,3 @@
 export function ifError(error) {
-  if (error) {
-    throw error;
-  }
+  if (error) throw error;
 }
