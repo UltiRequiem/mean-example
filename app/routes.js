@@ -1,9 +1,9 @@
 import { join } from "node:path";
-import { ifError } from "./utils.js";
-import Book from "./model.js";
-
 import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+
+import { ifError } from "./utils.js";
+import Book from "./model.js";
 
 export default (app) => {
   app.get("/book", (_req, res) => {
