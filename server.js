@@ -1,4 +1,4 @@
-import { default as express, static as staticMiddleware, json } from "express";
+import express, { static as staticMiddleware, json } from "express";
 import { dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import Routes from "./app/routes.js";
